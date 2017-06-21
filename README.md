@@ -105,3 +105,8 @@ createTable(3,3)
 | 2.1 | 2.2 | 2.3 |
 | 3.1 | 3.2 | 3.3 |
 
+helpful links:
++ [document.createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
++ [parent.appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
++ [document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
