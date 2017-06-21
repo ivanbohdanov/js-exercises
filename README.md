@@ -5,11 +5,13 @@
 ### Table of contents
 
 1. [Javascript Basics](#javascript-basics)
-+ [Convert temperatures](#convert-temperatures)
-+ [Days left to next New Year](#days-left-to-next-new-year)
-+ [Find Saturdays](#find-saturdays)
+    + [Convert temperatures](#convert-temperatures)
+    + [Days left to next New Year](#days-left-to-next-new-year)
+    + [Find Saturdays](#find-saturdays)
 2. [Functions](#functions)
-+ [Polymorphic function](#polymorphic-function)
+    + [Polymorphic function](#polymorphic-function)
+3. [DOM](#dom)
+    + [Create table](#create-table)
 
 ---
 
@@ -81,3 +83,25 @@ function reformatDate(date) {
 
 reformatDate(1496851371222) // 2017-06-07
 ```
+
+---
+
+### DOM
+
+### Create Table
+
+Write function that create table with two arguments: amount of columns and rows. Fill out this table with text of the row and column number. Whether any amount of rows and columns, header row should always exist.
+
+```javascript
+function createTable(rows, columns) {
+  //code ...
+}
+
+createTable(3,3)
+```
+| column 1 | column 2 | column 3 |
+|:---:|:---:|:---:|
+| 1.1 | 1.2 | 1.3 |
+| 2.1 | 2.2 | 2.3 |
+| 3.1 | 3.2 | 3.3 |
+
