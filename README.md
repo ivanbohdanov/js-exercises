@@ -8,6 +8,7 @@
     + [Convert temperatures](#convert-temperatures)
     + [Days left to next New Year](#days-left-to-next-new-year)
     + [Find Saturdays](#find-saturdays)
+    + [A Guessing game](#a-guessing-game)
 2. [Functions](#functions)
     + [Polymorphic function](#polymorphic-function)
 3. [DOM](#dom)
@@ -58,6 +59,16 @@ function calculateSaturdays(a, b) {
 }
 
 calculateSaturdays(2001, 2020)
+```
+
+### A Guessing game
+
+Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether their number was too large or too small. At the end the number of tries needed should be printed. You can use both [prompt()](https://developer.mozilla.org/en/docs/Web/API/Window/prompt) or [form input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) for resolving this exercise.
+
+```javascript
+startGame() {
+  // code ...
+}
 ```
 
 ---
