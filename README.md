@@ -9,6 +9,7 @@
     + [Days left to next New Year](#days-left-to-next-new-year)
     + [Find Saturdays](#find-saturdays)
     + [A Guessing game](#a-guessing-game)
+    + [List of digits](#list-of-digits)
 2. [Functions](#functions)
     + [Polymorphic function](#polymorphic-function)
 3. [DOM](#dom)
@@ -69,6 +70,18 @@ Write a guessing game where the user has to guess a secret number. After every g
 startGame() {
   // code ...
 }
+```
+
+### List of digits
+
+Write a function that takes a number and returns a list of its digits.
+
+```javascript
+listOfDigits() {
+  // code ...
+}
+
+listOfDigits(562) // [5,6,2]
 ```
 
 ---
