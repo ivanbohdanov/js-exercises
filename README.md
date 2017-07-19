@@ -71,9 +71,9 @@ startGame() {
 }
 ```
 
-### List of digits
+### Array of digits
 
-Write a function that takes a number and returns a list of its digits.
+Write a function that takes a number and returns a array of its digits.
 
 ```javascript
 listOfDigits() {
@@ -82,6 +82,21 @@ listOfDigits() {
 
 listOfDigits(562) // [5,6,2]
 ```
+
+### Element in array
+
+Write a function that checks whether an element occurs in a array. If element is present return its index in array otherwise
+return -1.
+
+```javascript
+elementInArray() {
+  // code ...
+}
+
+elementInArray([2,3,4,5,6], 5) //3
+elementInArray([2,3,4,5,6], 7) //-1
+```
+
 
 ### Polymorphic function
 
