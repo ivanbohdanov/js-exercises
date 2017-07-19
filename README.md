@@ -10,7 +10,6 @@
     + [Find Saturdays](#find-saturdays)
     + [A Guessing game](#a-guessing-game)
     + [List of digits](#list-of-digits)
-2. [Functions](#functions)
     + [Polymorphic function](#polymorphic-function)
 3. [DOM](#dom)
     + [Create table](#create-table)
@@ -84,10 +83,6 @@ listOfDigits() {
 listOfDigits(562) // [5,6,2]
 ```
 
----
-
-### Functions
-
 ### Polymorphic function
 
 Write a JavaScript program that reciev date in several variants in returns value in ``` yyyy-mm-dd``` format
@@ -106,6 +101,18 @@ function reformatDate(date) {
 }
 
 reformatDate(1496851371222) // 2017-06-07
+```
+
+### is Palindrome?
+
+Write a function that tests whether a string is a palindrome.
+
+```javascript
+isPalindrome() {
+  // code ...
+}
+
+isPalindrome(racecar) // true
 ```
 
 ---
